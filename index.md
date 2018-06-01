@@ -46,7 +46,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4>This is the workshop template. Delete these lines and use it to customize your own website.</h4>
+<h4>Data Carpentry for Genomics Workshop</h4>
 
 <h2 id="general">General Information</h2>
 
@@ -245,6 +245,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 {% endcomment %}
+<!--
 <h2 id="syllabus">Syllabus</h2>
 
 {% if page.carpentry == "swc" %}
@@ -256,6 +257,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endif %}
 
 <hr/>
+-->
 
 {% comment %}
   SETUP
@@ -268,7 +270,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 {% endcomment %}
-
+<!--
 <h2 id="setup">Setup</h2>
 
 <p>
@@ -744,6 +746,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     </div>
   </div>
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
+-->
 
 {% comment %}
 <div id="vm">
