@@ -47,9 +47,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4>Data Carpentry for Genomics Workshop</h4>
-
-<h2 id="general">General Information</h2>
+<h2 id="general">Data Carpentry for Genomics</h2>
 
 {% comment %}
   INTRODUCTION
