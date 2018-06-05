@@ -5,6 +5,9 @@
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
       <h2>{{page.venue}}</h2>
+      {% if page.hostentity %}
+      <h3>{{page.hostentity}}</h3>
+      {% endif %}
       <div class="row">
         <div class="col-md-6">
           <p>{{page.humandate}}</p>
