@@ -110,6 +110,19 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endif %}
 
 {% comment %}
+  CUSTOM REGISTRATION USING QUALTRICS FORM
+{% endcomment %}
+<p>
+  <strong>Tuition &amp; Registration:</strong> Tuition is $100.00, and
+  is waived for graduate students except for no-shows. Therefore, you
+  need to provide a fund code as part of registration. To register,
+  please <a
+  href="https://duke.qualtrics.com/jfe/form/SV_cwNwiWWiZTeqrk1">fill
+  out and submit this online form</a>. Attendance is capped at 25
+  learners. When the cap is reached, registrants will be put on a waitlist.
+</p>
+
+{% comment %}
   SPECIAL REQUIREMENTS
 
   Modify the block below if there are any special requirements.
