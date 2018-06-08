@@ -119,7 +119,10 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   please <a
   href="https://duke.qualtrics.com/jfe/form/SV_cwNwiWWiZTeqrk1">fill
   out and submit this online form</a>. Attendance is capped at 25
-  learners. When the cap is reached, registrants will be put on a waitlist.
+  learners. When the cap is reached, registrants will be put on a
+  waitlist. To cancel your registration, you must notify us at least 3
+  business days prior to the workshop, or you will be charged
+  full tuition.
 </p>
 
 {% comment %}
