@@ -12,7 +12,7 @@ humantime: "9:00am - 5:00pm"    # human-readable times for the workshop (e.g., "
 startdate: 2018-07-26      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-07-27        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Dan Leehr (GCB)", "Hilmar Lapp (GCB)", "Brook Moyers (Colorado State University)"]
-helper: ["Chris Erdmann (The Carpentries), "Devjanee Swain-Lenz (Duke)"]
+helper: ["Chris Erdmann (The Carpentries)", "Devjanee Swain-Lenz (Duke)"]
 email: ["hilmar.lapp@duke.edu"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
