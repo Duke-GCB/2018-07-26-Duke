@@ -283,7 +283,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 {% endcomment %}
-<!--
+
 <h2 id="setup">Setup</h2>
 
 <p>
@@ -394,7 +394,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     </div>
   </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
-
+<!--
 <div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
   <h3>Text Editor</h3>
 
