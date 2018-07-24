@@ -188,12 +188,12 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <hr/>
 
-{% comment %} 
- SURVEYS - DO NOT EDIT SURVEY LINKS 
+{% comment %}
+ SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
 
-{% if page.carpentry == "swc" %} 
+{% if page.carpentry == "swc" %}
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
@@ -321,11 +321,17 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
         <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
         <li>Run the installer and follow the steps bellow:
           <ol>
-            {% comment %} Git 2.8.2 Setup {% endcomment %}
+            {% comment %} Git 2.18.0 Setup {% endcomment %}
             {% comment %} Information {% endcomment %}
             <li>Click on "Next".</li>
             {% comment %} Select Components {% endcomment %}
             <li>Click on "Next".</li>
+            {% comment %} Choosing the default editor used by Git {% endcomment %}
+            <li>
+              <strong>
+                Select "Use the Nano editor by default" and click on "Next".
+              </strong>
+            </li>
             {% comment %} Adjusting your PATH environment {% endcomment %}
             <li>
               <strong>
@@ -334,8 +340,12 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
                 If you forgot to do this programs that you need for the workshop will not work properly.
                 If this happens rerun the installer and select the appropriate option.
             </li>
-            {% comment %} Choosing the SSH executable {% endcomment %}
-            <li>Click on "Next".</li>
+            {% comment %} Choosing HTTPS transport backend {% endcomment %}
+            <li>
+              <strong>
+                Keep "Use the OpenSSL library" sselected and click on "Next".
+              </strong>
+            </li>
             {% comment %} Configuring the line ending conversions {% endcomment %}
             <li>
               <strong>
@@ -348,7 +358,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
                 Keep "Use Windows' default console window" selected and click on "Next".
               </strong>
             </li>
-            {% comment %} Configuring experimental performance tweaks {% endcomment %}
+            {% comment %} Configuring extra options {% endcomment %}
             <li>Click on "Install".</li>
             {% comment %} Installing {% endcomment %}
             {% comment %} Completing the Git Setup Wizard {% endcomment %}
@@ -580,9 +590,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
         from <a href="https://cran.r-project.org/index.html">CRAN</a>.
         Also, please install the
         <a href="https://www.rstudio.com/ide/download/desktop/#download">RStudio IDE</a>.
-        Note that if you have separate user and admin accounts, you should run the 
-        installers as administrator (right-click on .exe file and select "Run as 
-        administrator" instead of double-clicking). Otherwise problems may occur later, 
+        Note that if you have separate user and admin accounts, you should run the
+        installers as administrator (right-click on .exe file and select "Run as
+        administrator" instead of double-clicking). Otherwise problems may occur later,
         for example when installing R packages.
       </p>
     </div>
